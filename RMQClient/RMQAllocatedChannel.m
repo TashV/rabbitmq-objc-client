@@ -165,13 +165,13 @@
 }
 
 - (void)recover {
-    [self open];
-    [self recoverPrefetch];
+    //[self open];
+    /*[self recoverPrefetch];
     [self recoverConfirmations];
     [self recoverExchanges];
-    [self recoverExchangeBindings]; 
+    [self recoverExchangeBindings];
     [self recoverQueuesAndTheirBindings];
-    [self recoverConsumers];
+    [self recoverConsumers];*/
 }
 
 - (void)blockingWaitOn:(Class)method {

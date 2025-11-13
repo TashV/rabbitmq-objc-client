@@ -248,6 +248,7 @@
 		70970AD821E6A64700E9CC8B /* QueueIntegrationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueIntegrationTest.swift; sourceTree = "<group>"; };
 		70F6980421EF17D600D1E7A1 /* ConsumersIntegrationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumersIntegrationTest.swift; sourceTree = "<group>"; };
 		70FC58B021DF4DB900BB25CB /* ChannelIntegrationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelIntegrationTest.swift; sourceTree = "<group>"; };
+		8FDBA4FE2EC4830D005E145E /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = info.plist; sourceTree = "<group>"; };
 		AE05DA661C69EC47009E68C7 /* RMQChannelAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMQChannelAllocator.h; sourceTree = "<group>"; };
 		AE05DA6A1C6A0848009E68C7 /* RMQMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMQMessage.h; sourceTree = "<group>"; };
 		AE05DA6B1C6A0848009E68C7 /* RMQMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMQMessage.m; sourceTree = "<group>"; };
@@ -793,6 +794,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE7FE961C3BCA6000DF8C4F /* Info.plist */,
+				8FDBA4FE2EC4830D005E145E /* info.plist */,
 				AEE7FE941C3BCA6000DF8C4F /* RMQClient.h */,
 				AEA8A7751CCA103700371E38 /* Connection */,
 				AE34153E1CEB73C90071177A /* Recovery */,

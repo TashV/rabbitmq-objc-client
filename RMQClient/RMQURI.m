@@ -63,7 +63,8 @@
 
 @implementation RMQURI
 + (instancetype)parse:(NSString *)uri error:(NSError *__autoreleasing  _Nullable *)error {
-    NSURLComponents *components = [NSURLComponents componentsWithString:uri];
+    NSString * encodedString = [uri stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]];
+    NSURLComponents *components = [NSURLComponents componentsWithString:encodedString];
     
     if (![self isValidScheme:components.scheme]) {
         *error = [NSError errorWithDomain:RMQErrorDomain
